@@ -1,1 +1,29 @@
 // Navigation code here
+
+nav {
+    display: flex;
+    justify-content: center;
+    .headercolor();
+    width: 100%;
+
+    @media @phone {
+        margin-top: 10%;
+        position: fixed;
+        width: 100%;
+    }//media break
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    .color();
+
+    @media @phone {
+        margin-left: 3%;
+        margin-right: 3%;
+    }//media break
+}
